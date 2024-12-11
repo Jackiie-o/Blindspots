@@ -1,10 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+
 body {
   background-color:  #323749 ;
   font-family: helvetica;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
+
+
+
+/* Header */
 
 header {
   color: black;
@@ -14,12 +25,26 @@ header {
   align-items: center;
   text-decoration: none;
   height: 5em;
+  
+}
+
+.medialinks {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #135E51;
+  height: 5em;
+  align-items: center;
+  
 }
 
 #media {
   display: flex;
-  margin-left: auto;
   align-items: center;
+  width: 3em;
+  margin: 0.5em;
 }
 
 #logo {
@@ -31,6 +56,7 @@ nav ul {
   flex-direction: row;
   list-style: none;
   font-size: 1.3em;
+  margin-left: 2em;
 }
 
 li a {
@@ -47,6 +73,55 @@ a:hover {
 h1 {
   margin-left: 0.2em;
 }
+
+/* Home page */
+
+#teaser-video {
+  width: 50em;
+  height: 28.1em;
+}
+
+section {
+  background-color: #13CA91;
+  padding: 0.5em;
+  margin: 2em;
+  border: solid;
+  border-color: #135E51;
+  border-width: 0.2em;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.home-page article {
+  background-color: #13CA91;
+  margin: 2em;
+  border: solid;
+  border-color: #135E51;
+  border-width: 0.2em;
+  height: fit-content;
+}
+
+.home-page article p {
+  margin: 1em;
+}
+
+.introduction h2 {
+  margin-top: 1em;
+  margin-left: 0.7em;
+  font-size: 1.3em;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* Episodes page */
 
 .afleveringen-schema article {
   margin: 1em;
@@ -78,6 +153,7 @@ h1 {
 
 h2 {
   font-size: 1em;
+  margin-top: 0.7em;
 }
 
 button {
@@ -87,7 +163,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   margin-top: auto;
 }
 
@@ -103,19 +179,26 @@ button:hover {
 .extension {
   width: flex;
   background-color: #13CA91;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 2em;
 }
 
 .extension p {
   padding: 1em;
+  border: solid;
+  border-color: #135E51;
 }
 
 .extension span {
   font-weight: bold;
 }
 
-.about-us article {
+article span {
+  font-weight: normal;
+}
+
+/* About us page */
+
+.about-us {
   display: inline-block;
   flex-direction: column;
   background-color: #13CA91;
@@ -124,11 +207,11 @@ button:hover {
   text-align: center;
   justify-content: center;
   padding: 0.5em;
+  border: solid;
+  border-color: #135E51;
+  border-width: 0.2em;
 }
 
-article span {
-  font-weight: normal;
-}
 
 .about-us2 {
   display: flex;
@@ -142,32 +225,43 @@ article span {
   display: flex;
   flex-direction: column;
   background-color: #13CA91;
-  width: 20%;
+  width: 25%;
+  height: 24.5em;
   border: solid;
   border-color: #135E51;
   border-width: 0.2em;
+
 }
 
 h3 {
   margin-left: 0.5em;
 }
 
+.about-us2 p {
+  padding: 0.5em;
+}
+
 #avatar {
   width: 50%;
   align-self: center;
-  border: solid;
-  border-color: #135E51;
   margin-top: 0.5em;
-  
 }
+
+/* Footer */
 
 footer {
   display: flex;
   background-color: #13CA91;
   margin-top: auto;
   align-items: center;
+  padding: 0.3;
+  padding-left: 0.5em;
 }
 
-footer p {
+footer a {
   margin-left: auto;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  text-decoration: none;
+  color: black;
 }
