@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+
+body {
+  background-color:  #323749 ;
+  font-family: helvetica;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+
+/* Header */
+
+header {
+  color: black;
+  text-align: center;
+  background-color: #13CA91 ;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 5em;
+  
+}
+
+.medialinks {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #135E51;
+  height: 5em;
+  align-items: center;
+  
+}
+ .media {
+  display: flex;
+  align-items: center;
+  width: 3em;
+  margin: 0.5em;
+}
+
+#logo {
+  width: 5.2em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 1.3em;
+  margin-left: 2em;
+}
+
+li a {
+  padding: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: #135E51;
+  color: white;
+}
+
+h1 {
+  margin-left: 0.2em;
+}
+
+/* Home page */
+
+#teaser-video {
+  width: 50em;
+  height: 28.1em;
+}
+
+section {
+  background-color: #13CA91;
+  padding: 0.5em;
+  margin: 2em;
+  border: solid;
+  border-color: #135E51;
+  border-width: 0.2em;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.home-page article {
+  background-color: #13CA91;
+  margin: 2em;
+  border: solid;
+  border-color: #135E51;
+  border-width: 0.2em;
+  height: fit-content;
+}
+
+.home-page article p {
+  margin: 1em;
+}
+
+.introduction h2 {
+  margin-top: 1em;
+  margin-left: 0.7em;
+  font-size: 1.3em;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* Episodes page */
+
+.afleveringen-schema article {
+  margin: 1em;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  background-color: #135E51;
+  width: 20%;
+  height: fit-content;
+  min-height: 18em;
+}
+
+
+.episodethumbnail {
+  width: 100%;
+}
+
+.afleveringen-schema article span {
+  font-size: 1em;
+}
+
+.afleveringen-schema {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+h2 {
+  font-size: 1em;
+  margin-top: 0.7em;
+}
+
+button {
+  background-color: #13CA91;
+  border: none;
+  padding: 0.7em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-top: auto;
+}
+
+button:hover {
+  color: whitesmoke;
+  background-color: #323749;
+}
+
+.readmore,.readmore2,.readmore3,.readmore4,.readmore5,.readmore6 {
+  display: none;
+}
+
+.extension {
+  width: flex;
+  background-color: #13CA91;
+  margin: 2em;
+}
+
+.extension p {
+  padding: 1em;
+  border: solid;
+  border-color: #135E51;
+}
+
+.extension span {
+  font-weight: bold;
+}
+
+article span {
+  font-weight: normal;
+}
+
+/* About us page */
+
+.about-us {
+  display: inline-block;
+  flex-direction: column;
+  background-color: #13CA91;
+  margin: 2em;
+  font-size: 1.3em;
+  text-align: center;
+  justify-content: center;
+  padding: 0.5em;
+  border: solid;
+  border-color: #135E51;
+  border-width: 0.2em;
+}
+
+
+.about-us2 {
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: 2.6em;
+  margin-right:2.6em;
+}
+
+.about-us2 article {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  background-color: #13CA91;
+  width: 25%;
+  height: 24.5em;
+  border: solid;
+  border-color: #135E51;
+  border-width: 0.2em;
+
+}
+
+h3 {
+  margin-left: 0.5em;
+}
+
+.about-us2 p {
+  padding: 0.5em;
+}
+
+.avatar {
+  width: 50%;
+  align-self: center;
+  margin-top: 0.5em;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  background-color: #13CA91;
+  margin-top: auto;
+  align-items: center;
+  padding: 0.3;
+  padding-left: 0.5em;
+}
+
+footer a {
+  margin-left: auto;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  text-decoration: none;
+  color: black;
+}
